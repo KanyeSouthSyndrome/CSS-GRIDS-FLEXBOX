@@ -1,0 +1,3 @@
+to shorthand row/column ends/starts
+grid-row: 1/ 3;
+/*the first value in the shorthand dictates start, 2nd value after / dictates end*/

@@ -1,0 +1,11 @@
+/*[grid-column-end: ;]
+Dictates where a particular grid-item will end.*/
+.GRID-ITEM-I {
+  background-color: orange;
+  grid-column-end: ;
+}
+/*
+Line-Value=Dictates the COLUMN-LINE that the element will end on 
+Span-Value=Dictates how many values our grid item will SPAN across
+auto-Autplaces Item
+*/
