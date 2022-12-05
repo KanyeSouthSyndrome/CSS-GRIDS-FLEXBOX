@@ -1,0 +1,9 @@
+/*Use this property to create a column gap between columns*/
+column-gap: /*Will take a value & create a space betwen columns*/ ;
+
+/*Use this property to create a row gap between columns*/
+row-gap: /*Will take a value & create a space betwen rows*/ ;
+
+SHORTHAND METHOD
+gap: 10px 20px;
+1st value is the column-gap & the 2nd is the row-gap

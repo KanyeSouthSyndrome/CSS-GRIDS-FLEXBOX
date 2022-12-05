@@ -1,0 +1,11 @@
+ALIGN IS VERTICAL
+align-items: center; /*justifies the grid-item to the center*/
+
+align-items: start; /*justifies the grid-item to the beginning of the grid 
+cell[the start means the leftmost side, (left 2 right)]*/
+
+align-items: end; /*justifies the grid-item to the end of the grid 
+cell[the end means the rightmost side, (left 2 right)]*/
+
+align-items: stretch; /*Stretched the content to fit the grid-cell
+[Default Setting for grid content]*/

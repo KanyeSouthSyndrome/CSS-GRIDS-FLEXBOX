@@ -1,0 +1,22 @@
+JUSTIFY IS HORIZONTAL
+justify-content: center; /*justifies the grid to the center of the container*/
+
+justify-content: start; /*justifies the grid to the beginning of the container
+cell[the start means the leftmost side, (left 2 right)]*/
+
+justify-content: end; /*justifies the grid to the end of the container
+cell[the end means the rightmost side, (left 2 right)]*/
+
+justify-content: stretch; /*Stretchs the grid to fit the container*/
+
+justify-content: space-between; /*Stretches the content to fill the container but places even spaces BETWEEN grid cells*/
+
+justify-content: space-around; /*Stretches the content to fill the container but places even spaces AROUND grid cells*/
+
+justify-content: space-evenly; /*Stretches the content to fill the container but places evenly spaced grid cells*/
+
+/*justify-content work when the grid is smaller than the container itself, this cannot happen when both col & row values 
+are [fr] fractional values.*/
+grid-template-columns: repeat(4, 100px);
+grid-template-columns: repeat(4, 100px);
+justify-content: center;

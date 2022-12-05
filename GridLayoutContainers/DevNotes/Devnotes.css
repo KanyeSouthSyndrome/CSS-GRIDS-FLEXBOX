@@ -1,0 +1,34 @@
+.container {
+  display: grid; /*This tag will cause any containers with the [.container] class to be a grid layout
+  sets me up to start working with ROWS/COLUMNS/GRID-LINES
+  each ROW & COLUMN have a END-LINE & a START-LINE*/
+  grid-template-columns: repeat(
+    2,
+    1fr
+  ); /*The [repeat (2, 1fr)] will create 2 fractions of a whole(ie...2 columns)*/
+  /*Values such as %, px, rem & etc.. can be used to define grid values BUT...
+  the grid system has its own value known as FRACTIONS
+  the ideal method for qualifiying grid values.
+  !Grids are responsive, they can expand/collapse very easily...
+  Absolute values such as pixels, will not allow such an easy expansion/collapse of Grids.*/
+  grid-template-rows: repeat (3, 10fr); /*The same principals laid out for the [grid-template-columns: ;]
+  is the same principles that can be applied to [grid-template-rows: ;]*/
+  gap: 10px 20px; /*10px is the Col-Gap, 20px is the Row-Gap*/
+  justify-items: center; /*justifies the grid-item to the center
+  of its grid cell;*/
+  justify-content: ; /*Used when the grid is smaller than its parent container 
+  dictates the position of the ENTIRE GRID CONTAINER*/
+}
+
+.GRID-ITEM-I {
+  background-color: orange;
+}
+.GRID-ITEM-II {
+  background-color: lightblue;
+}
+.GRID-ITEM-III {
+  background-color: firebrick;
+}
+.GRID-ITEM-IV {
+  background-color: cyan;
+}

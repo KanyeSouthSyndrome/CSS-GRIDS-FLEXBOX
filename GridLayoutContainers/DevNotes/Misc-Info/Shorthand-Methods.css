@@ -1,0 +1,4 @@
+/*instead of using */
+grid-template-columns: 1fr 1fr 1fr 1fr; /*The [1fr 1fr] will create 4 fractions of a whole(ie...4 columns)
+we can instead use*/
+grid-template-columns: repeat(4, 1fr);

@@ -1,0 +1,11 @@
+/*[grid-column-start: ;]
+Dictates where a particular grid-item will start.*/
+.GRID-ITEM-I {
+  background-color: orange;
+  grid-column-start: ;
+}
+/*
+Line-Value=Dictates the COLUMN-LINE that the element will start on 
+Span-Value=Dictates how many values our grid item will SPAN across
+
+*/

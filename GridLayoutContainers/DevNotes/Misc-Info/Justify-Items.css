@@ -1,0 +1,11 @@
+JUSTIFY IS HORIZONTAL
+justify-items: center; /*justifies the grid-item to the center*/
+
+justify-items: start; /*justifies the grid-item to the beginning of the grid 
+cell[the start means the leftmost side, (left 2 right)]*/
+
+justify-items: end; /*justifies the grid-item to the end of the grid 
+cell[the end means the rightmost side, (left 2 right)]*/
+
+justify-items: stretch; /*Stretched the content to fit the grid-cell
+[Default Setting for grid content]*/

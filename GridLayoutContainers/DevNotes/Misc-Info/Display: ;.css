@@ -1,0 +1,4 @@
+display: grid;
+/*Causes the grid cell widths/heights to be relative to its CONTAINER*/
+display: inline-grid;
+/*Causes the grid cell widths/heights to be relative to its CONTENT*/
