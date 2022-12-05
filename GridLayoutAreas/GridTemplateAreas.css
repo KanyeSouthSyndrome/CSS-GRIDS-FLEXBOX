@@ -1,0 +1,35 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat (3, 100px);
+  gap: 10px 20px;
+  place-items: stretch;
+  /*Allows me to build a VISUAl grid based off the grid-area names given to grid items/descendents of grid container
+*/
+  grid-template-areas:
+    'header header header header header'
+    /*Row 1, header with the span of 4 headers*/
+    'main main main main sidebar'
+    /*Row 2, main with the span of 3 mains, sidebar with the span of 1 sidebar*/
+    'main main main main sidebar'
+    /*Row 3, main with the span of 3 mains, sidebar with the span of 1 sidebar*/
+    'Footer Footer Footer Footer Footer';
+  /*footer with the span of 4 footers*/
+}
+
+.GRID-ITEM-I {
+  background-color: orange;
+  grid-area: header;
+}
+.GRID-ITEM-II {
+  background-color: lightblue;
+  grid-area: main;
+}
+.GRID-ITEM-III {
+  background-color: firebrick;
+  grid-area: sidebar;
+}
+.GRID-ITEM-IV {
+  background-color: cyan;
+  grid-area: footer;
+}
